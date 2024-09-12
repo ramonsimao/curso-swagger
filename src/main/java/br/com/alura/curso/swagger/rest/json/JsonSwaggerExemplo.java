@@ -1,4 +1,4 @@
-package br.com.exemplos.springboot.alura.curso.swagger.rest.json;
+package br.com.alura.curso.swagger.rest.json;
 
 import java.time.LocalDateTime;
 

@@ -1,4 +1,4 @@
-package br.com.exemplos.springboot.alura.curso.swagger.mock;
+package br.com.alura.curso.swagger.mock;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
-import br.com.exemplos.springboot.alura.curso.swagger.mock.exc.MockNaoEncontradoException;
-import br.com.exemplos.springboot.alura.curso.swagger.rest.json.JsonSwaggerExemplo;
+import br.com.alura.curso.swagger.mock.exc.MockNaoEncontradoException;
+import br.com.alura.curso.swagger.rest.json.JsonSwaggerExemplo;
 
 public class JsonSwaggerExemploMockManager {
 	ConcurrentMap<Long, JsonSwaggerExemplo> BASE_DADOS = new ConcurrentHashMap<Long, JsonSwaggerExemplo>();

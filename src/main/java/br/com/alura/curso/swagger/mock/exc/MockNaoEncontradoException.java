@@ -1,4 +1,4 @@
-package br.com.exemplos.springboot.alura.curso.swagger.mock.exc;
+package br.com.alura.curso.swagger.mock.exc;
 
 public class MockNaoEncontradoException extends Exception {
 

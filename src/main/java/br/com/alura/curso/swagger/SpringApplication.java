@@ -1,4 +1,4 @@
-package br.com.exemplos.springboot.alura.curso.swagger;
+package br.com.alura.curso.swagger;
 
 import java.util.TimeZone;
 
