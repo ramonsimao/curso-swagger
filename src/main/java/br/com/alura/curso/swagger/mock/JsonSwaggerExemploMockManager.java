@@ -45,9 +45,9 @@ public class JsonSwaggerExemploMockManager {
 		return MOCK;
 	}
 	
-	public boolean remover(long id) throws MockNaoEncontradoException {
+	public JsonSwaggerExemplo remover(long id) throws MockNaoEncontradoException {
 		if (!BASE_DADOS.containsKey(id))
 			throw new MockNaoEncontradoException();
-		return BASE_DADOS.remove(id) != null;
+		return BASE_DADOS.remove(id);
 	}
 }

@@ -64,6 +64,9 @@ public class AuthAPIInvolker {
 	 * @return
 	 */
 	public boolean validar(final String token) {
+		if (token == null)
+			return false;
+		
 		try {			
 			HttpClient client = HttpClient.newHttpClient();
 			
@@ -81,7 +84,6 @@ public class AuthAPIInvolker {
 			if (response.statusCode() == 200)
 				return true;
 		} catch (IOException | InterruptedException e) {
-			e.printStackTrace();
 			return false;
 		}
 		
